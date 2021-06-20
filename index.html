@@ -15,7 +15,7 @@
             }
             
             .navbar { 
-                padding-right:-30%;
+                padding-right:0%;
                
             }
             
@@ -84,20 +84,21 @@
     
     <body>
         <!-- Nav區塊 --->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container-fluid" id="page">
-                <a class="navbar-brand" href="#">
-                     <img src="TXOphoto.jpg" alt="">TXO戰隊
+        <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark" >
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#" >
+                     <img src="TXOphoto.jpg" alt="">TXO戰隊 
                 </a>
                
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               
+                <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+                    <ul class="nav navbar-nav navbar-right" >
                         <li class="nav-item">
-                            <a class="nav-link" href="#page" aria-expanded="page">
+                            <a class="nav-link goTopBtn jq-goTop" href="#" aria-expanded="page">
                             首頁
                             </a>
                         </li>
@@ -122,10 +123,11 @@
                             </a>
                         </li>
                     </ul>
+                    
                 </div>
             </div>
         </nav>
-        <img src="TXOteam.jpg" class="card-img-top" alt="...">
+        <img src="TXOteam.jpg" class="card-img-top" alt="..." >
     
         <!-- Jumbotron區塊 --->
         <div class="jumbotron bg-dark" id="word" >
